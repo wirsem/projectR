@@ -15,25 +15,6 @@ An R-based data analysis project covering customer data exploration, segmentatio
 
 ---
 
-## 🔍 What This Project Covers
-
-**Customer Segmentation (`customer_segmentation.R`)**
-- Converting raw data into a proper R DataFrame using `as.data.frame()`
-- Inspecting data with `head()`, `tail()`, and `str()`
-- Checking column data types using `lapply()` with `class`
-- Aggregating insights:
-  - Average age by gender (`Jenis.Kelamin`)
-  - Total count per profession (`Profesi`)
-  - Average annual spending per profession (`NilaiBelanjaSetahun`)
-
-**Data Visualization (`viusalisasi.R`)**
-- Multi-series line chart with `ggplot2` comparing productivity of employees A, B, C, D, and E across months
-- Highlighting top performer (Karyawan E) with `darkblue` emphasis
-- Custom annotations using `annotate()` to label peak productivity and per-employee averages
-- Dynamic labels using `paste()` and `toString()` for real-time stat display
-
----
-
 ## 🛠️ Tools & Libraries
 
 ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
